@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>🎧 Live DJ Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  🎧 Live DJ Room
+  <div id="userCount">👥 0 users</div>
+</header>
+
+<div id="modeDisplay"></div>
+
+<div class="container">
+
+  <div class="card">
+    <h2>🎵 Now Playing</h2>
+    <div id="nowPlaying">Nothing playing</div>
+    <div id="adminControls"></div>
+    <div id="player"></div>
+  </div>
+
+  <div class="card">
+    <h2>🔥 Play Queue</h2>
+    <div id="playQueue"></div>
+  </div>
+
+  <div class="card">
+    <h2>🗳 Song Queue</h2>
+    <div id="songs"></div>
+  </div>
+
+  <div class="card">
+    <h2>➕ Add Song</h2>
+    <form id="songForm">
+      <input 
+        id="youtubeLink" 
+        placeholder="🔗 Paste YouTube link"
+        required 
+      />
+      <button>Add Song</button>
+    </form>
+  </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
