@@ -60,17 +60,17 @@ Tecnologías utilizadas
 Estructura del proyecto
 
 live-dj-room/
-│
-├── index.js
-├── package.json
-├── data/
-│   ├── songs.json
-│   └── state.json
-│
-└── client/
-    ├── index.html
-    ├── style.css
-    └── script.js
+
+- index.js
+- package.json
+- data/
+    - songs.json
+    - state.json
+
+- client/
+    - index.html
+    - style.css
+    - script.js
 
 ------------------------------------------------------------
 
@@ -186,3 +186,4 @@ Perfecta para:
 ## Autor
 **Donovan Yanci Díaz González**  
 Estudiante de programación
+
